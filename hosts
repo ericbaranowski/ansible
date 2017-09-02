@@ -1,0 +1,14 @@
+## Add a single host
+#mail.example.com
+
+## Creating Groups
+#[webservers]
+#foo.example.com
+#bar.example.com
+#
+#[dbservers]
+#one.example.com
+#two.example.com
+#three.example.com
+
+localhost           ansible_connection=local
